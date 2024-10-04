@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         LIQUIBASE_HOME = 'C:/liquibase'  // Path where Liquibase is installed
-        DB_URL = 'jdbc:mysql://localhost:3306/twenty_eight'
+        DB_URL = 'jdbc:mysql://localhost:3306/liquibase14.8'
         DB_DRIVER = 'com.mysql.cj.jdbc.Driver'
     }
 
