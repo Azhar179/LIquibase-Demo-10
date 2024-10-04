@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/Azhar179/Liq-3.git', branch: 'master'
+                git url: 'https://github.com/Azhar179/LIquibase-Demo-10.git', branch: 'master'
             }
         }
         stage('Update Database') {
